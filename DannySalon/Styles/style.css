@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 2% 10% 0px 10%;
+    background-color: #EBEFF4;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* menu */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-list {
+    list-style: none;
+}
+
+.menu-link {
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 1.15rem;
+    color: black;
+    font-weight: 400;
+}
+
+.menu-link:hover {
+    color: #E7ABFF;
+    transition: .5s;
+}
+
+.logo-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    border: 1.5px solid #E7ABFF;
+    padding: 5px;
+}
+
+span {
+    display: block;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+/* container */
+
+.agenda-texto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img {
+    width: 40vw;
+}
+
+.texto-principal {
+    font-size: 2.3rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600 bold;
+}
+
+.texto-secundario {
+    margin-bottom: 2.5rem;
+    font-size: 1.2rem;
+}
+
+.agenda-botao {
+    text-decoration: none;
+    color: black;
+    background-color: #E7ABFF;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 25%;
+}
+
+.agenda-botao:hover {
+    background-color: #dca0f4;
+    transition: .5s;
+    
+}
